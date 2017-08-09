@@ -6,7 +6,7 @@ Set up all your hardware, learn how to run a project, and test your hardware to 
 
 ###Instructions
 
-1. Visit the Lab Setup instructions here and setup all your hardware.
+1. Visit the Lab Setup instructions [here](https://github.com/drnobodyphd/LAB_SETUP) and setup all your hardware and software.
 2. Make a new program and call it LAB01. If you do not know how to do so, revisit the Lab Setup instructions here.
 3. Copy the .s file shown below EXACTLY AS SHOWN into your new project. 
 4.  When you are done copying the code, compile it by hitting the "rebuild" button and fix all mistakes. Build errors will be shown in the build output window at the bottom of the screen. Warnings are ok to have while you are starting off, but build errors are not. 
@@ -19,4 +19,4 @@ Set up all your hardware, learn how to run a project, and test your hardware to 
  *   Compile code for an assembly project
  *   Run your code on the target hardware
 
-Since you are a master at this, you should never have to ask the current instructor for help to do this again, and since you are self sufficient you can go home.  (Technically, you are not required to go home, but you cant stay here)
+Since you are a master at this, you should never have to ask the current instructor for help to do this again, and since you are self sufficient you can go home. Make sure to call the instructor over to get credit once you are done.  
