@@ -1,10 +1,10 @@
-#EEE3231 - Microcontrollers - Lab 01  
+# EEE3231 - Microcontrollers - Lab 01  
   
-###Lab Description  
+### Lab Description  
 Set up all your hardware, learn how to run a project, and test your hardware to make sure it works.
 
 
-###Instructions
+### Instructions
 
 1. Visit the Lab Setup instructions [here](https://github.com/drnobodyphd/LAB_SETUP) and setup all your hardware and software.
 2. Make a new program and call it LAB01. If you do not know how to do so, revisit the Lab Setup instructions here.
