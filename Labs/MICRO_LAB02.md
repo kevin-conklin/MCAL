@@ -44,6 +44,8 @@ A bad comment is a comment that adds no additional information to a line of code
 
 The code might not make full sense to you yet, but it is now much more clear. It makes it much easier for you, the programmer, to understand it while you are coding, and it makes it much easier for someone else to read it who has never seen the program.  This is what you will be doing for LAB02, but combining some aspects of hardware with it.  
 
+Note:  for reminders on how to use the debugger, check the help files in Keil or view online here: [http://www.keil.com/support/man/docs/uv4/uv4_db_using.htm](http://www.keil.com/support/man/docs/uv4/uv4_db_using.htm)
+
 ### Instructions    
 Make a new program and call it LAB02. If you do not know how to do so, revisit the Lab Setup instructions [here](./Lab_setup). Copy the code below EXACTLY AS SHOWN into main.s.
 
