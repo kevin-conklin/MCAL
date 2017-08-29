@@ -14,6 +14,15 @@ Three strings of ASCII characters are stored in memory(human readable format) an
 
 
 ### Instructions    
+
+Add these lines into your data.s file  
+
+```Assembly    
+VAL1      DCB   "0x2341"    
+VAL2      DCB   "7975"        
+VAL3      DCB   "0b11010011"    
+```
+
 Copy the code below EXACTLY AS SHOWN into a new main.s.
 
 ```Assembly    
@@ -33,31 +42,37 @@ RAM_START	EQU	0x20000000				; Starting address of RAM
 		
 __main
 
-		; Start writing your code here
+		; Start writing your main function here
 
 
 
 
-		; Stop writing your code here
+		; Stop writing your main function here
 		
 		
 STOP	B STOP
 		
 
 DEC2BIN
+		; Write a function to 
+		; convert a string in decimal 
+		; to a binary and store it in R0	
+		; Start
 
-		; Function to convert a decimal value
-		; to binary and store it in R0	
 
+		; Stop
 		BX LR								
 			
 		END
 
 HEX2BIN	
-	
-		; Function to convert a hex value
-		; to binary and store it in R1
+		; Write a function to 
+		; convert a string in hex 
+		; to a binary and store it in R1	
+		; Start
 
+
+		; Stop
 		BX LR								
 			
 		END
@@ -65,21 +80,18 @@ HEX2BIN
 		
 
 BIN2BIN	
+		; Write a function to 
+		; convert a string in bin
+		; to a binary and store it in R2	
+		; Start
 
-		; Function to convert a decimal value
-		; to binary and store it in R2
 
+		; Stop
 		BX LR								
 			
 		END
 
 ```
-Add these lines into your data.s file  
 
-```Assembly    
-VAL1      DCB   "0x2341"    
-VAL2      DCB   "7975"        
-VAL3      DCB   "0b11010011"    
-```
   
 Upload your main.s file only by the deadline to recieve credit.  If something other than the main.s file is uploaded you will not recieve credit.    
