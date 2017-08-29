@@ -1,5 +1,5 @@
 		GET GPIO_helper.s
-	
+		GET data.s
 		AREA myprog, CODE, READONLY
 		ENTRY
 		EXPORT __main
@@ -9,6 +9,7 @@ __main
 		LDR		r0, =0x400FE608			; RCGCGPIO Register
 		LDR		r2, =0x3F				; Turn on all GPIO
 		STR		r2, [r0]				; Save to memory
+		LDR		r4, beg_prog_dat
 
 FLURBO
 		;BL GET_PF4
