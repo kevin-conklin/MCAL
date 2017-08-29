@@ -24,16 +24,52 @@ Copy the code below EXACTLY AS SHOWN into a new main.s.
 		EXPORT __main
 		IMPORT SKADOOSH
 		IMPORT SQUABBLE
-			
+		IMPORT VAL1
+		IMPORT VAL2
+		IMPORT VAL3	
 			
 RAM_START	EQU	0x20000000				; Starting address of RAM
+
 		
 __main
 
+		; Start writing your code here
+
+
+
+
+		; Stop writing your code here
 		
 		
 STOP	B STOP
-										
+		
+
+DEC2BIN
+
+		; Function to convert a decimal value
+		; to binary and store it in R0	
+
+		BX LR								
+			
+		END
+
+HEX2BIN	
+	
+		; Function to convert a hex value
+		; to binary and store it in R1
+
+		BX LR								
+			
+		END
+
+		
+
+BIN2BIN	
+
+		; Function to convert a decimal value
+		; to binary and store it in R2
+
+		BX LR								
 			
 		END
 
@@ -41,9 +77,9 @@ STOP	B STOP
 Add these lines into your data.s file  
 
 ```Assembly    
-Value1      DCB   "0x2341"    
-Value2      DCB   "7975"        
-Value3      DCB   "0b11010011"    
+VAL1      DCB   "0x2341"    
+VAL2      DCB   "7975"        
+VAL3      DCB   "0b11010011"    
 ```
   
 Upload your main.s file only by the deadline to recieve credit.  If something other than the main.s file is uploaded you will not recieve credit.    
