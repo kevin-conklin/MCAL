@@ -31,8 +31,8 @@ Copy the code below EXACTLY AS SHOWN into a new main.s.
 		AREA myprog, CODE, READONLY
 		ENTRY
 		EXPORT __main
-		IMPORT SKADOOSH
-		IMPORT SQUABBLE
+;		IMPORT SKADOOSH    	-not needed
+;		IMPORT SQUABBLE		-not needed
 		IMPORT VAL1
 		IMPORT VAL2
 		IMPORT VAL3	
